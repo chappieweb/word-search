@@ -1,0 +1,9 @@
+<%= form_for(:lookup, :remote=>true) do |f| %>
+  <div class="field">
+    <%= f.label 'Message:'%>
+    <%= f.text_field 'selected_twwtr' %>
+    <%= f.submit 'interpret' %>
+  </div>
+  <div id="response_message"></div>
+  <div id="response"></div>
+<% end %>
