@@ -1,28 +1,13 @@
-== README
+== Word Search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very simple application that allows a user to enter a word without vowels, or spaces and will lookup words that could match, then displays a series of phrases that could match
 
-Things you may want to cover:
+Example:
 
-* Ruby version
+cat owner
 
-* System dependencies
+if you remove all the vowels you get
 
-* Configuration
+ctwnr
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The app will find all phrases including cat owner that could be made with the specified string.
